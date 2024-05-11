@@ -68,7 +68,6 @@ setuptools.setup(
         "tensorflow-datasets>=4.4.0",
         "tensorflow-estimator>=2.7.0",
         "tensorflow-gan>=2.1.0",
-        "tensorflow-gpu>=2.7.0",
         "tensorflow-hub>=0.12.0",
         "tensorflow-io-gcs-filesystem>=0.22.0",
         "tensorflow-metadata>=1.4.0",
