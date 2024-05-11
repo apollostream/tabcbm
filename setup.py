@@ -58,7 +58,6 @@ setuptools.setup(
         "scipy>=1.10.1",
         "setuptools>=44.0.0",
         "setuptools-scm>=6.3.2",
-        "sklearn>=0.0",
         "smmap>=5.0.0",
         "sympy>=1.9",
         "tab-transformer-pytorch>=0.2.0",
