@@ -16,13 +16,12 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.10',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Intended Audience :: Science/Research',
     ],
-    python_requires='>=3.7, <3.9',
+    python_requires='>=3.10',
     install_requires=[
         "anndata>=0.7.8",
         "cachetools>=4.1.1",
@@ -68,6 +67,7 @@ setuptools.setup(
         "tensorflow-datasets>=4.4.0",
         "tensorflow-estimator>=2.7.0",
         "tensorflow-gan>=2.1.0",
+        "tensorflow-gpu",
         "tensorflow-hub>=0.12.0",
         "tensorflow-io-gcs-filesystem>=0.22.0",
         "tensorflow-metadata>=1.4.0",
